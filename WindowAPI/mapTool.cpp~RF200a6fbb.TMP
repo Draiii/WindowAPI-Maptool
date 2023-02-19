@@ -1,0 +1,169 @@
+#include "stdafx.h"
+#include "mapTool.h"
+
+
+HRESULT mapTool::init()
+{
+	//이곳에서 초기화를 한다
+
+
+	//맵툴 그릴 스크린 사이즈
+	screen = RectMake(40, 40, 1000, 820);
+	secondScreen = RectMake(1080, 40, 280, 820);
+	//타일 초기화
+	for (int i = 0; i < X_EA; i++)
+	{
+		for (int j = 0; j < Y_EA; j++)
+		{
+			INT total = i * X_EA + j;
+
+			mainTile[total].width = WIDTH;
+			mainTile[total].height = HEIGHT;
+			mainTile[total].x = (WINSIZEX / 2) + (j * (mainTile->width / 2)) - (i * mainTile->width / 2);
+			mainTile[total].y = 100 + (j * (mainTile->height / 2)) + (i * (mainTile->height / 2));
+			mainTile[total].rc = RectMakeCenter(mainTile[total].x, mainTile[total].y, mainTile->width, mainTile->height);
+			mainTile[total].leftCenter = mainTile[total].rightCenter = (mainTile[total].rc.top + mainTile[total].rc.bottom) / 2;
+			mainTile[total].topCenter = mainTile[total].bottomCenter = (mainTile[total].rc.right + mainTile[total].rc.left) / 2;
+			mainTile[total].image = NULL;
+		}
+	}
+
+	//셀렉트 렉트
+	for (int i = 0; i < SELECTX; i++)
+	{
+		for (int j = 0; j < SELECTY; j++)
+		{
+			selectTile[i][j].x = (secondScreen.left + 5) + (j * WIDTH);
+			selectTile[i][j].y = (secondScreen.top + 5) + (i * HEIGHT);
+			selectTile[i][j].rc = RectMake(selectTile[i][j].x, selectTile[i][j].y, 80, 80); // 오류남 ㅅㅂ
+	
+		}
+	}
+	/*앞으로 메엔게임은 각각의 씬들만 관리를 한다*/
+	//각각의 씬들이 메인게임 역할을 하면 된다
+	temp = NULL;
+	//타일 백
+	GDIPLUS->addImage("background", "img/back.png");
+	//타일 색상	
+	GDIPLUS->addImage("0001", "img/ground/0001.gif");
+	
+
+
+	return S_OK;
+}
+
+void mapTool::release()
+{
+}
+
+void mapTool::update()
+{
+	for (int i = 0; i < MAX; i++)
+	{
+		//┌      ┐
+		//  2   1
+		//    ┼
+		//  3   4
+		//└      ┘ 4분면
+
+		//마우스가 어느 타일과 충돌했는지 체크한다
+		if (PtInRect(&mainTile[i].rc, _ptMouse))
+		{
+			if (_ptMouse.y > mainTile[i].y)//3 4분면 체크
+			{
+				if (_ptMouse.x > mainTile[i].x) // 4분면 
+				{
+					if ((_ptMouse.x) <= mainTile[i].x + (WIDTH/2) - (_ptMouse.y - mainTile[i].y) * 2)
+					{
+
+					}
+				}
+
+				else							// 3분면
+				{
+					if ((_ptMouse.x) <= mainTile[i].x + (WIDTH / 2) + (_ptMouse.y - mainTile[i].y) * 2)
+					{
+
+					}
+				}
+			}
+
+			else // 1 2분면 체크
+			{
+				if (_ptMouse.x > mainTile[i].x) // 1분면 
+				{
+					if ((_ptMouse.x) <= mainTile[i].x + (WIDTH / 2) + (_ptMouse.y - mainTile[i].y) * 2)
+					{
+
+					}
+				}
+
+				else							// 2분면
+				{
+					if ((_ptMouse.x) <= mainTile[i].x + (WIDTH / 2) - (_ptMouse.y - mainTile[i].y) * 2)
+					{
+
+					}
+				}
+			}
+		}
+	}
+	
+	
+	//마우스에 타일 있을때
+	
+}
+
+void mapTool::render()
+{
+	//흰색 빈 비트맵 (이것도 렌더에 그냥 두기)
+	PatBlt(getMemDC(), 0, 0, WINSIZEX, WINSIZEY, WHITENESS);
+	//=============================================================
+
+
+
+
+	//스크린
+	Rectangle(getMemDC(), screen);
+	
+
+	for (int i = 0; i < MAX; i++)
+	{
+		if (mainTile[i].rc.left > screen.right) continue;
+		if (mainTile[i].rc.top > screen.bottom) continue;
+		if (mainTile[i].rc.right < screen.left) continue;
+		if (mainTile[i].rc.bottom < screen.top) continue;
+		
+		//Rectangle(getMemDC(),mainTile[i].rc);
+		// 탑>왼쪽
+		LineMake(getMemDC(), mainTile[i].topCenter, mainTile[i].rc.top, mainTile[i].rc.left, mainTile[i].leftCenter);
+		//레프트>바텀
+		LineMake(getMemDC(), mainTile[i].rc.left, mainTile[i].leftCenter, mainTile[i].bottomCenter, mainTile[i].rc.bottom);
+		//바텀>라이트
+		LineMake(getMemDC(), mainTile[i].bottomCenter, mainTile[i].rc.bottom, mainTile[i].rc.right, mainTile[i].rightCenter);
+		//라이트>탑
+		LineMake(getMemDC(), mainTile[i].rc.right, mainTile[i].rightCenter, mainTile[i].topCenter, mainTile[i].rc.top);
+	}
+
+	//툴 배경 메인타일보다 아래에
+	GDIPLUS->gdiRender("background", getMemDC());
+
+	//셀렉툴 스크린
+	Rectangle(getMemDC(), secondScreen);
+
+	//셀렉트 렉트
+	for (int i = 0; i < SELECTY; i++)
+	{
+		for (int j = 0; j < SELECTX; j++)
+		{
+			Rectangle(getMemDC(), selectTile[i][j].rc);
+		}
+	}
+
+	//테스트 이미지
+	GDIPLUS->gdiRender("0001", getMemDC(), 1200, 200);
+
+	//마우스 위에 그림 그리기
+	if (temp != NULL)
+		temp->render(getMemDC(), _ptMouse.x - (WIDTH / 2), _ptMouse.y - (HEIGHT / 2));
+}

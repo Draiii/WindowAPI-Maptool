@@ -1,0 +1,74 @@
+﻿  enemyManager.cpp
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\enemyManager.cpp(37,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\enemyManager.cpp(56,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\enemyManager.cpp(65,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\enemyManager.cpp(69,4): error C2102: '&'에 l-value가 있어야 합니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\enemyManager.cpp(103,64): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\enemyManager.cpp(103,26): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  mapTool1.cpp
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(36,103): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(36,86): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(36,74): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(36,55): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(37,116): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(38,116): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(50,50): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(51,33): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(52,119): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(52,100): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(52,86): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(52,61): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(73,62): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(74,67): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(75,77): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(75,57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(90,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(91,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(124,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(125,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(144,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(145,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(164,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(165,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(184,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(185,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(206,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(207,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(226,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(227,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(246,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(247,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(286,106): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(286,89): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(286,72): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\mapTool1.cpp(286,49): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  player.cpp
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(21,87): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(21,67): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(84,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(85,31): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(100,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(101,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(102,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(116,20): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(117,21): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(118,21): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(100,18): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(101,18): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(102,18): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(127,60): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(127,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(143,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(145,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\player.cpp(149,5): error C2102: '&'에 l-value가 있어야 합니다.
+  playerData.cpp
+  winMain.cpp
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\tileNode.h(5,1): warning C4005: 'TILEX': 매크로 재정의
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\isometricTest.h(5,1): message : 'TILEX'의 이전 정의를 참조하십시오.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\tileNode.h(6,1): warning C4005: 'TILEY': 매크로 재정의
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\isometricTest.h(6,1): message : 'TILEY'의 이전 정의를 참조하십시오.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\tileNode.h(7,1): warning C4005: 'TILESIZEX': 매크로 재정의
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\isometricTest.h(8,1): message : 'TILESIZEX'의 이전 정의를 참조하십시오.
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\tileNode.h(8,1): warning C4005: 'TILESIZEY': 매크로 재정의
+C:\works\C\포폴-002\맵툴 포폴\20191030_1_GDI플러스\WindowAPI\isometricTest.h(9,1): message : 'TILESIZEY'의 이전 정의를 참조하십시오.
+  코드를 생성하고 있습니다...
